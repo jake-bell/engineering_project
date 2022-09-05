@@ -1,6 +1,7 @@
 from datetime import datetime
 from PiicoDev_BME280 import PiicoDev_BME280 as Sensor
 
+# To be run automatically on pi.
 # Note that this must be an absolute path to work with cron.
 WEATHER_FILE = "/home/pi/code/weather_data/auto_capture.csv"
 
