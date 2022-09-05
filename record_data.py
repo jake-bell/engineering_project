@@ -2,11 +2,11 @@ from datetime import datetime
 from PiicoDev_BME280 import PiicoDev_BME280 as Sensor
 
 # Note that this must be an absolute path to work with cron.
-WEATHER_FILE = "/home/pi/code/weather_data/auto_capture.txt"
+WEATHER_FILE = "/home/pi/code/weather_data/auto_capture.csv"
 
 # Get a string representation of the current time.
 def get_time():
-	time_format_string = "%Y/%m/%d-%H:%M:%S"
+	time_format_string = "%Y/%m/%d %H:%M:%S"
 	now = datetime.now()
 	time = now.strftime(time_format_string)
 	return time
