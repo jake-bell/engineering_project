@@ -18,7 +18,8 @@ TRAINING_OUTPUT_FILE = path.join(SCRIPT_FOLDER, OUTPUT_FOLDER, TRAINING_OUTPUT_F
 TEST_DATA_START = datetime(
 	year=2022,
 	month=9,
-	day=1,
+	day=5,
+	#day=1,
 	hour=15,
 	minute=32
 )
