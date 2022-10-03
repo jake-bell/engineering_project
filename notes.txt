@@ -1,0 +1,10 @@
+Meeting notes 14/9/22
+Explained progress this week. - tested using matlab with data, wrote scripts to automate the process, tested a bunch of different models, found that I was able to achieve resonable accuracy about three days out and that the 'wide neural netowrk' seemed to perform the best. As such, this is the one that I will implment in python.
+
+For next meeting
+Draft of poster / workflow (methodology, flow diagram)
+Pseudocode - refer some paper for standard psuedocode
+Get feedback for assignments next meeting.# , use meeting to get feedback.
+work on python implementation of model by next week.
+Show some of the outcomes from the matlab testing.
+
