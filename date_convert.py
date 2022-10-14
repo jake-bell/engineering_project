@@ -1,8 +1,10 @@
 from datetime import datetime
 from os import path
 
-# Process/reformat data to play more nicely with matlab ML models and split in
-# training and testing data.
+# Outdated script, now merged into train_model.py
+
+# Process/reformat data to play more nicely with matlab ML models and split
+# into training and testing data.
 
 # Get folder this script is in
 SCRIPT_FOLDER = path.dirname(__file__)

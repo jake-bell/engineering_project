@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8" />
+		<title>Weather Data Viewer</title>
+	</head>
+	<body>
+		<header class="justify-content-center text-dark d-flex flex-wrap py-3 mb-4 border-bottom">
+			<span class="fs=4">Weather Data Viewer</span>
+		</header>
+		<main class="d-flex flex-nowrap">
+		<div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 140px">
+		<a class="d-flex align-items-center mb-3 mb-md-9 me-md-auto link-dark text-decoration-none" href="#">Locations</a>
+		<hr>
+		<ul class="nav nav-pills flex-column mb-auto">
+			<li class="nav-item">
+				<a class="nav-link active" href="#">Warrandyte</a>
+				<!--<a class="nav-link" href="#">Box Hill</a>-->
+			</li>
+		</ul></div>
+		<div class="px-4 pt-5 my-5 text-center">
+		<div class="container px-5">
+			<img src="graphs/warrandyte.png" alt="graph" class="img-fluid">
+			<p style="margin-top:2rem; font-size:0.9rem;">The above graph shows the past weather records and future weather predictions. The border between blue and orange is the current temperature.</p>
+		</div></div>
+		</main>
+		<div class="container" style="max-width: 100%">
+			<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+				<div class="col-md-4 d-flex align-items-center"></div>
+				<div class="col-md-4 justify-content-end d-flex"></div>
+			</footer>
+		</div>
+	</body>
+</html>
